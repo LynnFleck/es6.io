@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Lynn's Arrow Functions</title>
+</head>
+<body>
+
+  <script>
+
+    const myArray = [ 'lynn', 'joy', 'jane'];
+
+    const fullName = myArray.map(function(name) {
+      return `${name} huff`;
+    });
+
+    const fullName2 = myArray.map((name) => {
+      return `${name} huff`;
+    });
+
+    const fullName3 = myArray.map(() => {
+      return `new huff`;
+    });
+
+  const fullName4 = myArray.map(name => {
+      return `${name} huff`;
+    });
+
+    console.log(fullName4);
+
+  </script>
+
+</body>
+</html>
